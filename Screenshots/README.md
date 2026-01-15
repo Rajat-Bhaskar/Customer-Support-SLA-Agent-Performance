@@ -1,3 +1,3 @@
 ## Dashboard Preview
 
-![Customer Support SLA & Agent Performance Dashboard](dashboard.png)
+![Customer Support SLA & Agent Performance Dashboard](Dashboard.png)
