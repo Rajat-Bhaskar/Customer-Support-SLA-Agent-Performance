@@ -78,7 +78,7 @@ Check the screenshots folder for full dashboard visuals.
 - Applied real-world SLA monitoring logic
 - Improved storytelling using business-focused KPIs
 
-Rajat Bhaskar
+**Rajat Bhaskar**
 Aspiring Data Analyst
 📍 India
 🔗 GitHub: https://github.com/Rajat-Bhaskar
