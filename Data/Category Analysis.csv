@@ -1,0 +1,6 @@
+Category_Name,Sla_hours,Total_Tickets,Avg_Resoution_Time_Hours,sla_breached_percent
+"Login Issue",24,4,16.0000,50.0000
+"Payment Failure",12,4,14.5000,100.0000
+"Account Closure",48,2,NULL,0.0000
+"Refund Request",72,3,68.5000,0.0000
+"Profile Update",24,2,4.0000,0.0000
