@@ -62,7 +62,7 @@ DIVIDE(
 
 Avg Resolution Time (Hours) =
 AVERAGE('Ticket Analysis'[Resolution_Time_Hours])
-
+```
 
 📸 Dashboard Preview
 Check the screenshots folder for full dashboard visuals.
