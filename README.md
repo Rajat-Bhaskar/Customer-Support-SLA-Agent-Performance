@@ -13,15 +13,15 @@ An end-to-end **Business Intelligence project** built using **SQL, Power BI, and
 - [How To Use](#how-to-use)
 - [Project Overview](#project-overview)
 - [Business Objectives](#business-objectives)
-- [Key KPIs](#key-kpis)
+- [Key KPIs](#key-kpis-tracked)
 - [Dataset](#dataset)
-- [SQL Data Preparation](#sql-data-preparation)
-- [Power BI Dashboard](#power-bi-dashboard)
+- [SQL Data Preparation](#sql-data-preparation-scripts)
+- [Power BI Dashboard](#power-bi-dashboard-visuals)
 - [Repository Structure](#repository-structure)
-- [Major DAX Used](#major-dax-used)
+- [Major DAX Used](#key-dax-measures)
 - [Tools & Technologies Used](#tools--technologies-used)
-- [Potential Outcome & Learnings](#potential-outcome--learnings)
-- [Author Information](#author-information)
+- [Potential Outcome & Learnings](#outcome--learnings)
+- [Author Information](#author)
 
 ...
 
