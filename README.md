@@ -8,6 +8,7 @@
 An end-to-end **Business Intelligence project** built using **SQL, Power BI, and DAX** to analyze customer support ticket data, monitor SLA compliance, and evaluate agent performance.
 
 ---
+
 ## 📑 Table of Contents
 
 - [How To Use](#how-to-use)
@@ -164,6 +165,7 @@ AVERAGE('Ticket Analysis'[Resolution_Time_Hours])
 - Improved business storytelling using KPIs and visuals
   
 ---
+
 ## 👤 Author
 
 Rajat Bhaskar  
