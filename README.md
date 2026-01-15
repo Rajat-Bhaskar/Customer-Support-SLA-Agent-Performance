@@ -8,17 +8,17 @@
 An end-to-end **Business Intelligence project** built using **SQL, Power BI, and DAX** to analyze customer support ticket data, monitor SLA compliance, and evaluate agent performance.
 
 ---
-## 📁 Table of Contents
+## 📑 Table of Contents
 
 - [How To Use](#how-to-use)
 - [Project Overview](#project-overview)
 - [Business Objectives](#business-objectives)
-- [Key KPIs Tracked](#key-kpis-tracked)
+- [Key KPIs](#key-kpis)
 - [Dataset](#dataset)
-- [SQL Data Preparation Scripts](#sql-data-preparation-scripts)
-- [Power BI Dashboard Visuals](#power-bi-dashboard-visuals)
+- [SQL Data Preparation](#sql-data-preparation)
+- [Power BI Dashboard](#power-bi-dashboard)
 - [Repository Structure](#repository-structure)
-- [Key DAX Measures](#key-dax-measures)
+- [Major DAX Used](#major-dax-used)
 - [Tools & Technologies Used](#tools--technologies-used)
 - [Outcome & Learnings](#outcome--learnings)
 - [Author](#author)
@@ -33,7 +33,7 @@ An end-to-end **Business Intelligence project** built using **SQL, Power BI, and
 
 ---
 
-## 🚀 Project Overview
+## 📊 Project Overview
 
 This project analyzes customer support ticket data to:
 - Track **SLA breach trends**
@@ -55,7 +55,7 @@ The dashboard provides actionable insights for support managers to improve servi
 
 ---
 
-## 📈 Key KPIs Tracked
+## 📈 Key KPIs
 
 - **Total Tickets**
 - **SLA Breach %**
@@ -65,7 +65,7 @@ The dashboard provides actionable insights for support managers to improve servi
 
 ---
 
-## 🗂️ Dataset
+## 🗂 Dataset
 
 - **Source:** Simulated customer support ticket data  
 - **Granularity:** Ticket-level data  
@@ -81,7 +81,7 @@ Datasets are available in the `/Data` folder.
 
 ---
 
-## 🧠 SQL Data Preparation Scripts
+## 🧮 SQL Data Preparation
 
 SQL was used to:
 - Derive **SLA breach flags**
@@ -93,7 +93,7 @@ All SQL queries are available in the `/SQL` folder.
 
 ---
 
-## 📈 Power BI Dashboard Visuals
+## 📊 Power BI Dashboard
 
 The Power BI dashboard includes:
 
@@ -107,7 +107,7 @@ The Power BI dashboard includes:
 
 ---
 
-## 📂 Repository Structure
+## 🗃 Repository Structure
 
 ```text
 Customer-Support-SLA-Agent-Performance/
@@ -127,7 +127,7 @@ Customer-Support-SLA-Agent-Performance/
 
 ---
 
-## 🧮 Key DAX Measures
+## 📐 Major DAX Used
 
 ```DAX
 Total Tickets = COUNT('Ticket Analysis'[Ticket_Id])
@@ -149,7 +149,7 @@ AVERAGE('Ticket Analysis'[Resolution_Time_Hours])
 ```
 ---
 
-🛠️ Tools & Technologies
+## 🛠 Tools & Technologies Used
 - SQL – Data preparation & aggregation
 - Power BI – Data modeling & visualization
 - DAX – KPI calculations
@@ -157,7 +157,7 @@ AVERAGE('Ticket Analysis'[Resolution_Time_Hours])
   
 ---
 
-✅ Outcome & Learnings
+## 🎓 Outcome & Learnings
 - Built a production-style BI dashboard from raw data
 - Applied real-world SLA monitoring logic
 - Gained hands-on experience with SQL + Power BI modeling
