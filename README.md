@@ -9,6 +9,32 @@ An end-to-end **Business Intelligence project** built using **SQL, Power BI, and
 
 ---
 
+## 🗂 Table of Contents
+
+- [How To Use](#How-To-Use)
+- [Project Overview](#Project-Overview)
+- [Business Objectives](#Business-Objectives)
+- [Key KPIs](#Key-KPIs-Tracked)
+- [Dataset](#Dataset)
+- [SQL Data Preparation](#SQL-Data-Preparation)
+- [Power BI Dashboard](#Power-BI-Dashboard)
+- [Repository Structure](#Repository-Structure)
+- [Major DAX Used](#Key-DAX-Measures)
+- [Tools & Technologies Used](#Tools-&-Technologies)
+- [Potential Outcome & Learnings](#Outcome-&-Learnings)
+- [Author Information](#Author)
+
+...
+
+
+## 🧪 How to Use
+
+1. Download the CSV from /Data
+2. Open the `.pbix` in Power BI Desktop
+3. Refresh data and interact with visuals
+
+---
+
 ## 🚀 Project Overview
 
 This project analyzes customer support ticket data to:
