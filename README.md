@@ -1,6 +1,6 @@
 📊 Dashboard Preview
 
-![Dashboard Preview](Screenshots/Dashboard_preview.png)
+![Dashboard Preview](Screenshots/Dashboard.png)
 
 
 Customer Support SLA & Agent Performance Dashboard
