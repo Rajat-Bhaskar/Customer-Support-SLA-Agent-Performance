@@ -84,19 +84,22 @@ The Power BI dashboard includes:
 ---
 
 ## 📂 Repository Structure
+
+```text
 Customer-Support-SLA-Agent-Performance/
 │
 ├── Data/
-│ └── ticket_analysis.csv
+│   └── ticket_analysis.csv
 │
 ├── SQL/
-│ └── ticket_analysis.sql
+│   └── ticket_analysis.sql
 │
 ├── Screenshots/
-│ └── dashboard_preview.png
+│   └── dashboard_preview.png
 │
 ├── Support Ticket Analysis.pbix
 └── README.md
+```
 
 ---
 
