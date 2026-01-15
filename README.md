@@ -3,85 +3,143 @@
 ![Dashboard Preview](Screenshots/Dashboard.png)
 
 
-Customer Support SLA & Agent Performance Dashboard
+# 📊 Customer Support SLA & Agent Performance Dashboard
 
-📌 Project Overview
-This project analyzes customer support ticket data to evaluate **SLA compliance**, **agent performance**, and **issue resolution efficiency** using **Power BI**.
+An end-to-end **Business Intelligence project** built using **SQL, Power BI, and DAX** to analyze customer support ticket data, monitor SLA compliance, and evaluate agent performance.
 
-The dashboard helps identify:
-- SLA breach trends across categories and agents
-- High and low performing support agents
-- Categories causing maximum delays
-- Operational bottlenecks in ticket resolution
+---
 
-🎯 Business Objectives
-- Monitor overall SLA Breach Percentage
+## 🚀 Project Overview
+
+This project analyzes customer support ticket data to:
+- Track **SLA breach trends**
+- Evaluate **agent efficiency**
+- Identify **bottlenecks in ticket resolution**
+- Support **data-driven operational decisions**
+
+The dashboard provides actionable insights for support managers to improve service quality and response times.
+
+---
+
+## 🎯 Business Objectives
+
+- Monitor **overall SLA Breach Percentage**
 - Analyze SLA breaches by **Category** and **Agent**
-- Evaluate **Average Resolution Time** for different issue types
-- Measure agent workload and performance consistency
-- Enable data-driven decision-making for support operations
+- Measure **Average Resolution Time**
+- Identify **high and low performing agents**
+- Detect categories causing **maximum delays**
 
-📊 Dashboard KPIs
+---
+
+## 📈 Key KPIs Tracked
+
 - **Total Tickets**
 - **SLA Breach %**
 - **Average Resolution Time (Hours)**
 - **Tickets Handled per Agent**
-- **SLA Breach % per Agent**
-- **SLA Breach % per Category**
+- **SLA Breach % by Agent & Category**
 
-🧠 Key Insights
-- Payment Failure category shows the highest SLA breach rate
-- Refund Requests have the highest average resolution time
-- Some agents handle more tickets but have higher SLA breaches
-- Faster resolution does not always guarantee SLA compliance
+---
 
-🛠 Tools & Technologies Used
-- **Power BI**
-- **Power Query** (Data Cleaning & Transformation)
-- **DAX** (Calculated Measures)
-- **Microsoft Excel / CSV** (Data Source)
-- **GitHub** (Project Version Control)
+## 🗂️ Dataset
 
-📁 Project Structure
+- **Source:** Simulated customer support ticket data  
+- **Granularity:** Ticket-level data  
+- **Key Fields:**
+  - Ticket ID  
+  - Agent Name  
+  - Category  
+  - Resolution Time (Hours)  
+  - SLA Breached (Yes/No)  
+  - Status  
+
+Datasets are available in the `/Data` folder.
+
+---
+
+## 🗄️ SQL Data Preparation
+
+SQL was used to:
+- Derive **SLA breach flags**
+- Aggregate ticket data by **Category** and **Agent**
+- Calculate **Average Resolution Time**
+- Prepare analytical datasets for Power BI
+
+All SQL queries are available in the `/SQL` folder.
+
+---
+
+## 📊 Power BI Dashboard
+
+The Power BI dashboard includes:
+
+- **Category SLA Breach %**
+- **Average Resolution Time by Category**
+- **Tickets Handled by Agent**
+- **SLA Breach % by Agent**
+- **Average Resolution Time by Agent**
+
+📷 Dashboard screenshots are available in the `/Screenshots` folder.
+
+---
+
+## 📂 Repository Structure
 Customer-Support-SLA-Agent-Performance/
 │
 ├── Data/
 │ └── ticket_analysis.csv
 │
-├── Screenshots/
-│ └── Dashboard Preview
+├── SQL/
+│ └── ticket_analysis.sql
 │
-├── README.md
-└── Customer_Support_SLA_Agent_Performance.pbix
+├── Screenshots/
+│ └── dashboard_preview.png
+│
+├── Support Ticket Analysis.pbix
+└── README.md
 
+---
 
-🧮 Key DAX Measures
+## 🧮 Key DAX Measures
+
 ```DAX
 Total Tickets = COUNT('Ticket Analysis'[Ticket_Id])
 
 SLA Breach % =
 DIVIDE(
-    CALCULATE(COUNTROWS('Ticket Analysis'), 'Ticket Analysis'[Sla_Breached] = "Yes"),
-    CALCULATE(COUNTROWS('Ticket Analysis'), 'Ticket Analysis'[Sla_Breached] <> "Pending")
+    CALCULATE(
+        COUNTROWS('Ticket Analysis'),
+        'Ticket Analysis'[Sla_Breached] = "Yes"
+    ),
+    CALCULATE(
+        COUNTROWS('Ticket Analysis'),
+        'Ticket Analysis'[Sla_Breached] <> "Pending"
+    )
 )
 
 Avg Resolution Time (Hours) =
 AVERAGE('Ticket Analysis'[Resolution_Time_Hours])
 ```
-
-📸 Dashboard Preview
-Check the screenshots folder for full dashboard visuals.
-
-🚀 Outcome & Learning
-- Built an end-to-end BI dashboard from raw data
-- Gained hands-on experience with Power BI modeling and DAX
-- Applied real-world SLA monitoring logic
-- Improved storytelling using business-focused KPIs
-
 ---
 
-### 👤 Author
-**Rajat Bhaskar**  
+🛠️ Tools & Technologies
+- SQL – Data preparation & aggregation
+- Power BI – Data modeling & visualization
+- DAX – KPI calculations
+- GitHub – Version control & project hosting
+  
+---
+
+✅ Outcome & Learnings
+- Built a production-style BI dashboard from raw data
+- Applied real-world SLA monitoring logic
+- Gained hands-on experience with SQL + Power BI modeling
+- Improved business storytelling using KPIs and visuals
+  
+---
+## 👤 Author
+
+Rajat Bhaskar  
 Aspiring Data Analyst  
 📍 India  
 🔗 GitHub: https://github.com/Rajat-Bhaskar
