@@ -8,24 +8,22 @@
 An end-to-end **Business Intelligence project** built using **SQL, Power BI, and DAX** to analyze customer support ticket data, monitor SLA compliance, and evaluate agent performance.
 
 ---
+## 📁 Table of Contents
 
-## 🗂 Table of Contents
-
-- [How To Use](#How-To-Use)
-- [Project Overview](#Project-Overview)
-- [Business Objectives](#Business-Objectives)
-- [Key KPIs](#Key-KPIs-Tracked)
-- [Dataset](#Dataset)
-- [SQL Data Preparation](#SQL-Data-Preparation)
-- [Power BI Dashboard](#Power-BI-Dashboard)
-- [Repository Structure](#Repository-Structure)
-- [Major DAX Used](#Key-DAX-Measures)
-- [Tools & Technologies Used](#Tools-&-Technologies)
-- [Potential Outcome & Learnings](#Outcome-&-Learnings)
-- [Author Information](#Author)
+- [How To Use](#how-to-use)
+- [Project Overview](#project-overview)
+- [Business Objectives](#business-objectives)
+- [Key KPIs](#key-kpis)
+- [Dataset](#dataset)
+- [SQL Data Preparation](#sql-data-preparation)
+- [Power BI Dashboard](#power-bi-dashboard)
+- [Repository Structure](#repository-structure)
+- [Major DAX Used](#major-dax-used)
+- [Tools & Technologies Used](#tools--technologies-used)
+- [Potential Outcome & Learnings](#potential-outcome--learnings)
+- [Author Information](#author-information)
 
 ...
-
 
 ## 🧪 How to Use
 
@@ -83,7 +81,7 @@ Datasets are available in the `/Data` folder.
 
 ---
 
-## 🗄️ SQL Data Preparation
+## 🧠 SQL Data Preparation Scripts
 
 SQL was used to:
 - Derive **SLA breach flags**
@@ -95,7 +93,7 @@ All SQL queries are available in the `/SQL` folder.
 
 ---
 
-## 📊 Power BI Dashboard
+## 📈 Power BI Dashboard Visuals
 
 The Power BI dashboard includes:
 
