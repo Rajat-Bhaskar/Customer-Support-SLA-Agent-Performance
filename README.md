@@ -1,3 +1,8 @@
+📊 Dashboard Preview
+
+![Dashboard Preview](Screenshots/Dashboard_preview.png)
+
+
 Customer Support SLA & Agent Performance Dashboard
 
 📌 Project Overview
