@@ -38,3 +38,42 @@ The dashboard helps identify:
 - **GitHub** (Project Version Control)
 
 📁 Project Structure
+Customer-Support-SLA-Agent-Performance/
+│
+├── Data/
+│ └── ticket_analysis.csv
+│
+├── Screenshots/
+│ └── Dashboard Preview
+│
+├── README.md
+└── Customer_Support_SLA_Agent_Performance.pbix
+
+
+🧮 Key DAX Measures
+```DAX
+Total Tickets = COUNT('Ticket Analysis'[Ticket_Id])
+
+SLA Breach % =
+DIVIDE(
+    CALCULATE(COUNTROWS('Ticket Analysis'), 'Ticket Analysis'[Sla_Breached] = "Yes"),
+    CALCULATE(COUNTROWS('Ticket Analysis'), 'Ticket Analysis'[Sla_Breached] <> "Pending")
+)
+
+Avg Resolution Time (Hours) =
+AVERAGE('Ticket Analysis'[Resolution_Time_Hours])
+
+
+📸 Dashboard Preview
+Check the screenshots folder for full dashboard visuals.
+
+🚀 Outcome & Learning
+- Built an end-to-end BI dashboard from raw data
+- Gained hands-on experience with Power BI modeling and DAX
+- Applied real-world SLA monitoring logic
+- Improved storytelling using business-focused KPIs
+
+Rajat Bhaskar
+Aspiring Data Analyst
+📍 India
+🔗 GitHub: https://github.com/Rajat-Bhaskar
