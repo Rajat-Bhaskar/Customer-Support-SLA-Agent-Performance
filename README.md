@@ -11,22 +11,23 @@ An end-to-end **Business Intelligence project** built using **SQL, Power BI, and
 
 ## 📑 Table of Contents
 
-- [How To Use](#how-to-use)
-- [Project Overview](#project-overview)
-- [Business Objectives](#business-objectives)
-- [Key KPIs](#key-kpis)
-- [Dataset](#dataset)
-- [SQL Data Preparation](#sql-data-preparation)
-- [Power BI Dashboard](#power-bi-dashboard)
-- [Repository Structure](#repository-structure)
-- [Major DAX Used](#major-dax-used)
-- [Tools & Technologies Used](#tools--technologies-used)
-- [Outcome & Learnings](#outcome--learnings)
-- [Author](#author)
+- 🧪 [How To Use](#how-to-use)
+- 📊 [Project Overview](#project-overview)
+- 🎯 [Business Objectives](#business-objectives)
+- 📈 [Key KPIs](#key-kpis)
+- 🗂 [Dataset](#dataset)
+- 🧮 [SQL Data Preparation](#sql-data-preparation)
+- 📊 [Power BI Dashboard](#power-bi-dashboard)
+- 🗃 [Repository Structure](#repository-structure)
+- 📐 [Major DAX Used](#major-dax-used)
+- 🛠 [Tools & Technologies Used](#tools--technologies-used)
+- 🎓 [Outcome & Learnings](#outcome--learnings)
+- 👤 [Author](#author)
+
 
 ...
 
-## 🧪 How to Use
+## How to Use
 
 1. Download the CSV from /Data
 2. Open the `.pbix` in Power BI Desktop
@@ -34,7 +35,7 @@ An end-to-end **Business Intelligence project** built using **SQL, Power BI, and
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 This project analyzes customer support ticket data to:
 - Track **SLA breach trends**
@@ -46,7 +47,7 @@ The dashboard provides actionable insights for support managers to improve servi
 
 ---
 
-## 🎯 Business Objectives
+## Business Objectives
 
 - Monitor **overall SLA Breach Percentage**
 - Analyze SLA breaches by **Category** and **Agent**
@@ -56,7 +57,7 @@ The dashboard provides actionable insights for support managers to improve servi
 
 ---
 
-## 📈 Key KPIs
+## Key KPIs
 
 - **Total Tickets**
 - **SLA Breach %**
@@ -66,7 +67,7 @@ The dashboard provides actionable insights for support managers to improve servi
 
 ---
 
-## 🗂 Dataset
+## Dataset
 
 - **Source:** Simulated customer support ticket data  
 - **Granularity:** Ticket-level data  
@@ -82,7 +83,7 @@ Datasets are available in the `/Data` folder.
 
 ---
 
-## 🧮 SQL Data Preparation
+## SQL Data Preparation
 
 SQL was used to:
 - Derive **SLA breach flags**
@@ -94,7 +95,7 @@ All SQL queries are available in the `/SQL` folder.
 
 ---
 
-## 📊 Power BI Dashboard
+## Power BI Dashboard
 
 The Power BI dashboard includes:
 
@@ -108,7 +109,7 @@ The Power BI dashboard includes:
 
 ---
 
-## 🗃 Repository Structure
+## Repository Structure
 
 ```text
 Customer-Support-SLA-Agent-Performance/
@@ -128,7 +129,7 @@ Customer-Support-SLA-Agent-Performance/
 
 ---
 
-## 📐 Major DAX Used
+## Major DAX Used
 
 ```DAX
 Total Tickets = COUNT('Ticket Analysis'[Ticket_Id])
@@ -150,7 +151,7 @@ AVERAGE('Ticket Analysis'[Resolution_Time_Hours])
 ```
 ---
 
-## 🛠 Tools & Technologies Used
+## Tools & Technologies Used
 - SQL – Data preparation & aggregation
 - Power BI – Data modeling & visualization
 - DAX – KPI calculations
@@ -158,7 +159,7 @@ AVERAGE('Ticket Analysis'[Resolution_Time_Hours])
   
 ---
 
-## 🎓 Outcome & Learnings
+## Outcome & Learnings
 - Built a production-style BI dashboard from raw data
 - Applied real-world SLA monitoring logic
 - Gained hands-on experience with SQL + Power BI modeling
@@ -166,7 +167,7 @@ AVERAGE('Ticket Analysis'[Resolution_Time_Hours])
   
 ---
 
-## 👤 Author
+## Author
 
 Rajat Bhaskar  
 Aspiring Data Analyst  
