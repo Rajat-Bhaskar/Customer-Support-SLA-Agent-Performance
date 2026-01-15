@@ -1,0 +1,16 @@
+Ticket_Id,Created_At,Resolved_At,Status,Customer_Rating,Sla_Hours,Agent_Name,Category_Name,Resolution_Time_Hours,Sla_Breached
+1001,01-01-2024 10:00,01-01-2024 18:00,Resolved,4,24,Ravi Kumar,Login Issue,8,No
+1003,03-01-2024 09:15,04-01-2024 12:00,Resolved,5,24,Ravi Kumar,Login Issue,26,Yes
+1007,07-01-2024 09:00,08-01-2024 01:30,Resolved,2,12,Ravi Kumar,Payment Failure,16,Yes
+1011,11-01-2024 16:00,NULL,Open,NULL,48,Ravi Kumar,Account Closure,NULL,Pending
+1002,02-01-2024 11:30,03-01-2024 02:00,Resolved,3,12,Anita Rao,Payment Failure,14,Yes
+1005,05-01-2024 16:45,NULL,Open,NULL,48,Anita Rao,Account Closure,NULL,Pending
+1013,13-01-2024 11:45,16-01-2024 09:00,Resolved,1,72,Anita Rao,Refund Request,69,No
+1004,04-01-2024 14:00,07-01-2024 10:00,Resolved,2,72,Suresh Patel,Refund Request,68,No
+1008,08-01-2024 11:10,NULL,Reopened,NULL,72,Suresh Patel,Refund Request,NULL,Pending
+1014,14-01-2024 10:00,14-01-2024 14:30,Resolved,4,24,Suresh Patel,Profile Update,4,No
+1006,06-01-2024 10:20,06-01-2024 15:00,Resolved,4,24,Meena Joshi,Profile Update,4,No
+1010,10-01-2024 10:10,10-01-2024 13:00,Resolved,5,24,Meena Joshi,Login Issue,2,No
+1015,15-01-2024 17:20,16-01-2024 22:00,Resolved,3,24,Meena Joshi,Login Issue,28,Yes
+1009,09-01-2024 15:40,10-01-2024 05:00,Resolved,3,12,Vikram Das,Payment Failure,13,Yes
+1012,12-01-2024 09:30,13-01-2024 00:30,Resolved,2,12,Vikram Das,Payment Failure,15,Yes
