@@ -1,5 +1,3 @@
-📊 Dashboard Preview
-
 ![Dashboard Preview](Screenshots/Dashboard.png)
 
 
