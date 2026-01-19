@@ -155,10 +155,11 @@ AVERAGE('Ticket Analysis'[Resolution_Time_Hours])
 ---
 
 ## Tools & Technologies Used
-- SQL – Data preparation & aggregation
-- Power BI – Data modeling & visualization
+- SQL – Data modeling & transformation
+- Excel – SQL output validation
+- Power BI – Visualization & analysis
 - DAX – KPI calculations
-- GitHub – Version control & project hosting
+- GitHub – Project documentation
   
 ---
 
