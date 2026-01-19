@@ -113,13 +113,18 @@ The Power BI dashboard includes:
 Customer-Support-SLA-Agent-Performance/
 │
 ├── Data/
-│   └── ticket_analysis.csv
+│   └── Ticket Analysis.csv
+│   └── Category Analysis.csv
+│   └── Support Ticket Analysis Excel.xlsx
+│   └── README.md
 │
 ├── SQL/
-│   └── ticket_analysis.sql
+│   └── Main File.sql
+│   └── README.md
 │
 ├── Screenshots/
-│   └── dashboard_preview.png
+│   └── Dashboard.png
+│   └── README.md
 │
 ├── Support Ticket Analysis.pbix
 └── README.md
